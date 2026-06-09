@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fredoka One", cursive;
+
+  /* Custom palette matching user's Smart Pikin branding colors */
+  --color-sky-light: #e8f7ff;
+  --color-sky-main: #38b6e8;
+  --color-sky-dark: #1a8abf;
+  --color-sun-yellow: #f5a623;
+  --color-brand-green: #4caf50;
+  --color-brand-orange: #ff7043;
+}
+
+/* Custom utility for children's web style */
+.text-stroke-sm {
+  -webkit-text-stroke: 1px currentColor;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f7fbff;
+  color: #1a2e3b;
+  overflow-x: hidden;
+}

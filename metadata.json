@@ -1,0 +1,6 @@
+{
+  "name": "Smart Pikin",
+  "description": "An AI-powered reading companion helping children read, speak, and thrive with real-time coaching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
